@@ -1,0 +1,26 @@
+name: towswift_sa
+description: "Uber for Tow Trucks & Roadside Assistance - South Africa"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.6.0
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  provider: ^6.1.2
+  http: ^1.2.2
+  uuid: ^4.5.1
+  flutter_polyline_points: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
